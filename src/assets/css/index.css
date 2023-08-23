@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Sora", sans-serif;
+    @apply scroll-smooth
+  }
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2.5px] my-2 block bg-Tertiary;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply origin-top-left rotate-45;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply origin-bottom-left -rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-secondary bg-opacity-50 mt-0 backdrop-blur-sm;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 8px 24px;
+}
+
+.gradient {
+  background: rgb(217, 217, 217);
+  background: linear-gradient(
+    180deg,
+    rgba(217, 217, 217, 0.0044543429844098315) 48%,
+    rgba(120, 176, 193, 0.7505567928730512) 100%
+  );
+}
