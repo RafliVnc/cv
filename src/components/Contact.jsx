@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <section id="contact" className="pt-20 pb-16 bg-primary">
+      <section id="contact" className="pt-32 pb-32 bg-primary">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full px-4 lg:w-1/2">
@@ -69,8 +69,8 @@ export default function Contact() {
                     Email
                   </label>
                   <input
-                    type="text"
-                    id="name"
+                    type="email"
+                    id="email"
                     className="w-full p-2 bg-Projek rounded-md focus:outline-Dark mt-2 focus:ring-Dark focus:right-1 focus:border-primary"
                   />
                 </div>
@@ -83,7 +83,7 @@ export default function Contact() {
                   </label>
                   <textarea
                     type="text"
-                    id="name"
+                    id="pesan"
                     className="w-full p-2 bg-Projek h-32 rounded-md focus:outline-Dark mt-2 focus:ring-Dark focus:right-1 focus:border-primary"
                   />
                 </div>

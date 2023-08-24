@@ -1,15 +1,16 @@
 import BtnSaya from "./BtnSaya";
+import foto from "../assets/img/foto.png"
 
 export default function HeroSection() {
   return (
     <>
-      <section id="home" className="pt-20">
+      <section id="home" className="pt-24">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full self-end px-4 lg:w-1/2">
               <div className="relative mt-10 lg:mt-9 left-0 ">
                 <img
-                  src="src/assets/img/foto.png"
+                  src={foto}
                   alt="Ale"
                   className="max-w-full mx-auto lg:pl-10"
                 />

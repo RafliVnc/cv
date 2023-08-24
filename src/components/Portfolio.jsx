@@ -1,7 +1,9 @@
+import projek from "../assets/img/projek2.png"
+
 export default function Portfoliio() {
   return (
     <>
-      <section id="portfolio" className="pt-20 pb-16 bg-Projek">
+      <section id="portfolio" className="pt-32 pb-16 bg-Projek">
         <div className="container">
           <div className="w-full px-4">
             <div className="max-w-xl mx-auto text-left mb-8 lg:mb-16 lg:mx-0 lg:max-w-2xl">
@@ -24,7 +26,7 @@ export default function Portfoliio() {
                 </div>
                 <div className=" relative rounded-3xl shadow-md overflow-hidden ">
                   <img
-                    src="src/assets/img/projek2.png"
+                    src={projek}
                     alt="Peta Kejahatan"
                     width="w-full"
                   />
@@ -48,7 +50,7 @@ export default function Portfoliio() {
               </div>
                 <div className=" relative rounded-3xl shadow-md overflow-hidden ">
                   <img
-                    src="src/assets/img/projek2.png"
+                    src={projek}
                     alt="Peta Kejahatan"
                     width="w-full"
                   />
