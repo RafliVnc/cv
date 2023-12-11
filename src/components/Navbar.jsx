@@ -22,7 +22,7 @@ export default function Navbar() {
   const burgMenu = () =>{
     setHamburgerOpen(!hamburgerOpen);
   };
-
+console.log(hamburgerOpen)
   // useEffect(() => {
   //   const hamburger = document.querySelector("#hamburger");
   //   const navMenu = document.querySelector("#nav-menu");
