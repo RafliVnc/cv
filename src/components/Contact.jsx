@@ -11,9 +11,10 @@ export default function Contact() {
                 </h2>
                 <h1 className=" text-Dark font-bold text-2xl">Hubungi Kami</h1>
                 <p className="pt-2 font-normal">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis incidunt hic cumque obcaecati aliquid odio debitis
-                  sint distinctio deserunt maxime!
+                Jika Anda tertarik untuk berdiskusi lebih lanjut atau memiliki
+                  pertanyaan, silakan hubungi saya melalui informasi kontak di
+                  bawah ini. Saya senang dapat berbagi pengalaman dan berpotensi
+                  berkolaborasi dengan Anda
                 </p>
               </div>
               <div className="block mb-12 lg:px-4 ">

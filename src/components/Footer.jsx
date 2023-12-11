@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="px-2">
               {/* <div className="p-2 rounded-full items-center justify-center outline outline-3"> */}
               <a  
-              href="#home"
+              href="https://www.instagram.com/muhammad_rafli_8/"
               className="w-9 h-9 mr-3 rounded-full flex justify-center items-center outline outline-3">
                 <svg
                   className="w-[20px] fill-current "
@@ -59,7 +59,7 @@ const Footer = () => {
 
             {/* github */}
             <div className="px-2">
-              <a href="#home"
+              <a href="https://github.com/RafliVnc"
               className="w-9 h-9 mr-3 rounded-full flex justify-center items-center outline outline-3">
                 <svg
                   className="w-[20px]"

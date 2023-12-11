@@ -45,9 +45,10 @@ export default function HeroSection() {
                 </span>
               </h1>
               <p className="font-normal text-Tertiary mb-10 leading-relaxed">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                ipsa vitae atque sequi doloribus perspiciatis veritatis
-                laboriosam numquam enim ex.
+              Saya adalah seorang mahasiswa yang berdedikasi dalam pendidikan
+                saya. Dalam perjalanan akademis saya, saya telah mengeksplorasi
+                berbagai mata kuliah yang mencakup Bekel pemrograman web serta
+                pembelajar pribadi tentang react.
               </p>
 
               <BtnSaya />
