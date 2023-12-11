@@ -4,7 +4,7 @@ import foto from "../assets/img/foto.png"
 export default function HeroSection() {
   return (
     <>
-      <section id="home" className="pt-24">
+      <section id="home" className="pt-40">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full self-end px-4 lg:w-1/2">
